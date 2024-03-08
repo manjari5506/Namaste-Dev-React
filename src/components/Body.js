@@ -16,7 +16,7 @@ const Body = () => {
         const data = await fetch("https://www.swiggy.com/mapi/homepage/getCards?lat=18.5204303&lng=73.8567437");
 
         const json = await data.json();
-        console.log("json",json)
+        console.log("json", json)
 
         setListOfRestaurant(json?.data?.cards[2]?.data?.data?.cards)
         setFilteredRestaurant(json?.data?.cards[2]?.data?.data?.cards)
