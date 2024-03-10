@@ -7,6 +7,10 @@ const About = ()=>{
                 <li>Online orders</li>
                 <li>Cuisines</li>
                 <li>Location</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
     )
