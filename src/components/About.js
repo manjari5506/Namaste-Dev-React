@@ -1,3 +1,6 @@
+import User from "./User";
+import UserClass from "./UserClass";
+
 const About = ()=>{
     return(
         <div>
@@ -12,6 +15,8 @@ const About = ()=>{
                 <li></li>
                 <li></li>
             </ul>
+            <User name={"Manjari"} location={"Jhansi"}/>
+            <UserClass name={"Manjari Class"} location={"Jhansi Class"}/>
         </div>
     )
 }
