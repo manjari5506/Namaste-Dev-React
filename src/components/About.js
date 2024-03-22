@@ -10,10 +10,10 @@ const About = () => {
                 <li>Online orders</li>
                 <li>Cuisines</li>
                 <li>Location</li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Menu</li>
+                <li>Menu Item1</li>
+                <li>Menu Item2</li>
+                <li>Menu Item3</li>
             </ul>
             <User name={"Manjari"} location={"Jhansi"} />
             <UserClass name={"Manjari Class"} location={"Jhansi Class"} />
